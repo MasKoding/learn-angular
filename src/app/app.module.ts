@@ -12,6 +12,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PageNoutFoundComponentComponent } from './page-nout-found-component/page-nout-found-component.component';
 import { ArticlesModule } from './articles/articles.module';
 import { ProductsModule } from './products/products.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +26,7 @@ import { ProductsModule } from './products/products.module';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     NgbModule,
     ArticlesModule,
     ProductsModule,

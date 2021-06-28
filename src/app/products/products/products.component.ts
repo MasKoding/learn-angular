@@ -30,6 +30,7 @@ export class ProductsComponent implements OnInit {
   }
 
 }
+
 export class Products{
   'id': string;
   'name': string;
